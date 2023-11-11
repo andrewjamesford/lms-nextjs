@@ -1,5 +1,7 @@
 # LMS in NextJS
 
+This is an example LMS (Learning Management System) built with NextJS and Supabase.
+
 This is the codebase for a series on Youtube called [Code with Andrew Ford](https://www.youtube.com/@CodewithAndrewFord). See the [playlist](https://www.youtube.com/playlist?list=PLy4EgyrhFUF2E9T0z_qry81CaEHo9BAkz) to follow along.
 
 Transcripts for each stream are availble on my [blog](https://andrewford.co.nz/).
