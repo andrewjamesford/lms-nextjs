@@ -6,6 +6,10 @@ This is the codebase for a series on Youtube called [Code with Andrew Ford](http
 
 Transcripts for each stream are availble on my [blog](https://andrewford.co.nz/).
 
+## Sponsorship
+
+If you would like to support this project and video series [buy Andrew a coffee](https://ko-fi.com/andrewfordcodes).
+
 ## Getting Started
 
 First, run the development server:
