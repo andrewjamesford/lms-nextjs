@@ -1,14 +1,15 @@
-/** @type { import('@storybook/react').Preview } */
-const preview = {
-  parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
-    controls: {
-      matchers: {
-        color: /(background|color)$/i,
-        date: /Date$/i,
-      },
-    },
-  },
-};
 
-export default preview;
+import { Theme } from '@radix-ui/themes';
+import '@radix-ui/themes/styles.css';
+
+export default {
+  decorators: [
+    (Story) => (
+      <Theme>
+        {/* 👇 Decorators in Storybook also accept a function. Replace <Story/> 
+          with Story() to enable it  */}
+        <Story />
+      </Theme>
+    ),
+  ],
+};
